@@ -22,7 +22,7 @@ public class User implements Cloneable{
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return name+","+ age+ ","+ address.toString();
+		return name+","+ age+ ","+ address.toString() + "," + friends.size()+"个朋友";
 	}
 	
 	@Override
@@ -31,7 +31,8 @@ public class User implements Cloneable{
 		User user = null;
 		try{
 			user = (User) super.clone();
-			friends = (ArrayList<String>) this.friends.clone();
+			user.friends = (ArrayList<String>) this.friends.clone();
+            user.address = (Address) this.address.clone();
 		}catch(CloneNotSupportedException e){
 			e.printStackTrace();
 		}

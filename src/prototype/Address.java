@@ -1,6 +1,6 @@
 package prototype;
 
-public class Address {
+public class Address implements Cloneable{
 
 	public String city;
 	public String distruct;
@@ -18,5 +18,9 @@ public class Address {
 		// TODO Auto-generated method stub
 		return city+":"+distruct+":"+ street;
 	}
-	
+
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		return super.clone();
+	}
 }

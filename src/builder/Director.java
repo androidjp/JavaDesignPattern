@@ -15,7 +15,10 @@ public class Director {
 	public Director(Builder mBuilder){
 		this.mBuilder = mBuilder;
 	}
-	
+
+	public void setBuilder(Builder builder){
+		mBuilder = builder;
+	}
 	
 	/**
 	 * 统一到一个方法中

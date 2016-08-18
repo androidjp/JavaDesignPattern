@@ -1,11 +1,9 @@
 package prototype;
 
 /**
- * 登录接口
- * @author JP
- *
+ * Created by androidjp on 16/8/18.
  */
 public interface Login {
 
-	public void login();
+    public void login(User user);
 }
