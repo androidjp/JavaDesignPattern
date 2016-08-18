@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b72ee07d-5737-47b0-b4ba-dead64193a25" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/command/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/command/Command.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/command/ConcreteCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/command/Invoker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/command/Receiver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaDesignPattern.iws" />
@@ -865,7 +860,7 @@
       <workItem from="1471316979934" duration="4093000" />
       <workItem from="1471354013157" duration="1901000" />
       <workItem from="1471422319458" duration="7636000" />
-      <workItem from="1471483992430" duration="5118000" />
+      <workItem from="1471483992430" duration="5142000" />
     </task>
     <task id="LOCAL-00001" summary="添加:策略模式+状态模式">
       <created>1471321331827</created>
@@ -895,11 +890,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471487770231</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改:命令模式">
+      <created>1471489954939</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1471489954939</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26224000" />
+    <option name="totallyTimeSpent" value="26248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -947,7 +949,8 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
     <MESSAGE value="添加:策略模式+状态模式" />
     <MESSAGE value="新增: 解释器模式 + 责任链模式 + 命令模式&#10;修改: 原型模式, 构造器模式, 状态模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增: 解释器模式 + 责任链模式 + 命令模式&#10;修改: 原型模式, 构造器模式, 状态模式" />
+    <MESSAGE value="修改:命令模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改:命令模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
