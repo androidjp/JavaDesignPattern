@@ -2,74 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b72ee07d-5737-47b0-b4ba-dead64193a25" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adapter/MacBookPro.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adapter/NormalScreen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adapter/ScreenAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adapter/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bridge/Computer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bridge/Screen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bridge/impl/IPS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bridge/impl/MacBook.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bridge/impl/MicroSurface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bridge/impl/Retina.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bridge/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/composite/File.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/composite/Folder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/composite/abs/Dir.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/composite/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decorator/CheapCloth.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decorator/ExpensiveCloth.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decorator/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decorator/PersonCloth.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decorator/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decorator/XiaoMing.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decorator/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/facade/Camera.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/facade/MobilePhone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/facade/NormalPhone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/facade/Phone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/facade/SonyCamera.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/facade/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/flyweight/Ticket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/flyweight/TicketFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/flyweight/TrainTicket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/flyweight/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterator/ConcreteContainer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterator/ConcreteIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterator/Container.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterator/Iterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterator/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterator/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mediator/Colleague.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mediator/Mediator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mediator/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/memoto/Memoto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/memoto/MemotoCreator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/memoto/MemotoRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/memoto/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/observer/News.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/observer/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/observer/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/proxy/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/proxy/proxy_dynamic/Animal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/proxy/proxy_dynamic/DynamicProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/proxy/proxy_dynamic/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/proxy/proxy_dynamic/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/proxy/proxy_static/ProxySubject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/proxy/proxy_static/RealSubject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/proxy/proxy_static/Subject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/template/AbsComputer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/template/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/visitor/CEOVisitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/visitor/CTOVisitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/visitor/Coder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/visitor/PM.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/visitor/Staff.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/visitor/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/visitor/Visitor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/observer/package-info.java" afterPath="$PROJECT_DIR$/src/observer/package-info.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/visitor/package-info.java" afterPath="$PROJECT_DIR$/src/visitor/package-info.java" />
     </list>
     <ignored path="JavaDesignPattern.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -104,8 +37,8 @@
       <file leaf-file-name="package-info.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bridge/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="30">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -116,10 +49,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-              <folding>
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,15 +69,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,7 +79,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#199#200#0" expanded="false" />
+                <element signature="e#228#229#0" expanded="false" />
+                <element signature="e#272#273#0" expanded="false" />
+                <element signature="e#316#317#0" expanded="false" />
+                <element signature="e#366#367#0" expanded="false" />
+                <element signature="e#416#417#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,12 +97,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-              <folding>
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -182,12 +107,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding>
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -197,10 +117,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -210,10 +127,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-              <folding>
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -950,7 +864,7 @@
       <workItem from="1471483992430" duration="13875000" />
       <workItem from="1471577809279" duration="15481000" />
       <workItem from="1471661457896" duration="6808000" />
-      <workItem from="1472024622129" duration="32000" />
+      <workItem from="1472024622129" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="添加:策略模式+状态模式">
       <created>1471321331827</created>
@@ -994,11 +908,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471489963888</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="新增其余模式">
+      <created>1472024820134</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1472024820134</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57302000" />
+    <option name="totallyTimeSpent" value="57593000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1056,7 +977,8 @@
     <MESSAGE value="添加:策略模式+状态模式" />
     <MESSAGE value="新增: 解释器模式 + 责任链模式 + 命令模式&#10;修改: 原型模式, 构造器模式, 状态模式" />
     <MESSAGE value="修改:命令模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改:命令模式" />
+    <MESSAGE value="新增其余模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增其余模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1341,10 +1263,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1352,10 +1271,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1373,10 +1289,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding>
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1384,15 +1297,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1400,7 +1305,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#199#200#0" expanded="false" />
+            <element signature="e#228#229#0" expanded="false" />
+            <element signature="e#272#273#0" expanded="false" />
+            <element signature="e#316#317#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
+            <element signature="e#416#417#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1416,12 +1329,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1429,19 +1337,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bridge/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="30">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
           <folding />
         </state>
       </provider>
