@@ -16,8 +16,8 @@ package singleton;
  */
 public class DCLSingleTon {
 
-	private static DCLSingleTon sInstance;
-	
+//	private static DCLSingleTon sInstance;
+	private volatile static DCLSingleTon sInstance = null;
 	///考虑到 DCL失效问题：JDK1.5之前的JMM（Java内存模型）中的Cache、寄存器到主内存回写顺序的规定，上面三件事中的后面两件事的顺序无法保证。
 	///这样，如果是执行1->3->2的执行顺序，那么，在内部成员都没有被初始化的情况下，sInstance就已经被赋值为非null了，那就后面会产生错误了。
 	///于是，>=JDK1.5时，可以这样：

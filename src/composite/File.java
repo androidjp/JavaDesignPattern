@@ -2,6 +2,7 @@ package composite;
 
 import composite.abs.Dir;
 
+import java.io.BufferedOutputStream;
 import java.util.List;
 
 /**
@@ -19,7 +20,6 @@ public class File extends Dir{
 
     @Override
     public void addDir(Dir dir) {
-
     }
 
     @Override
