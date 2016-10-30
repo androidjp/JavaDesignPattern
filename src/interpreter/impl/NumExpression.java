@@ -1,10 +1,12 @@
-package interpreter;
+package interpreter.impl;
+
+import interpreter.ArithmeticExpression;
 
 /**
  * 数字解析器
  * Created by androidjp on 16/8/17.
  */
-public class NumExpression extends ArithmeticExpression{
+public class NumExpression extends ArithmeticExpression {
 
     private int num;
 

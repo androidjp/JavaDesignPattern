@@ -1,5 +1,9 @@
 package interpreter;
 
+import interpreter.impl.AdditionExpression;
+import interpreter.impl.NumExpression;
+import interpreter.impl.SubtractionExpression;
+
 import java.util.Scanner;
 import java.util.Stack;
 
