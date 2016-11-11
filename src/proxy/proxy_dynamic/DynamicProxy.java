@@ -4,7 +4,8 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 /**
- * 动态代理
+ * 动态代理： 动态代理处理器
+ *  接管实际对象的相关操作（原理是'反射'）
  * (利用了 反射机制中的 '动态代理接口' 动态生成代理者的对象)
  *
  * Created by androidjp on 16/8/19.

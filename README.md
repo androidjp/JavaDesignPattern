@@ -189,6 +189,7 @@ protected Stack<ArithmeticExpression> mExpStack = new Stack<ArithmeticExpression
 * 动态代理
   1. 相比静态代理,我可以动态对每一个被代理者,生成一个相应的代理类。
   2. 实质: 代理者 和 被代理者  解耦
+  3. 无非是两个主要类：Proxy类 和  InvocationHandler接口实现类（也就是 代理类），前者负责封装和创建动态代理对象，而后者负责封装真实对象并接管真实对象的相关方法操作
 
 * 以适用范围来区分不同代理:
   1. 远程代理: 为某个对象在不同的内存地址空间提供局部代理。使系统可以将Server部分的实现隐藏,以便Client可以不必考虑Server的存在。
