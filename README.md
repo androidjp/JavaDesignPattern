@@ -19,6 +19,7 @@ design pattern written by Java
 
 # 26个设计模式
 > 设计模式分类:
+
 1. 创建型设计模式:
   * 单例模式
   * 工厂模式
