@@ -133,6 +133,7 @@ protected Stack<ArithmeticExpression> mExpStack = new Stack<ArithmeticExpression
  * 相比于传统的写法【只有 接受者 一个类】 , 命令模式多了两个类【'命令'抽象类,'请求者'类 】,那么,这里,
  * 优点: 可以在 命令实现类 和 请求者类 中对原本的请求过程做额外记录等(命令记录功能等); 以弱耦合来替代原来的强耦合
  * 缺点: 类数量增加, 代码复杂了
+ * 图说：![Command Pattern](/img/Command%20Pattern.png)
 
 ### 观察者模式
  1. 也称为: 订阅模式
@@ -221,7 +222,7 @@ protected Stack<ArithmeticExpression> mExpStack = new Stack<ArithmeticExpression
 
 ### 装饰模式(decorator)
 装饰模式(包装模式):
-* 结构型设计模式
+* 结构型计模式d
 * 定义:动态给一个对象添加一些额外的职责。【装饰模式 是 生成子类 的 更灵活方案】
 * 使用场景: 需要透明且动态地扩展类的功能时。
 * 与代理模式的区别:
