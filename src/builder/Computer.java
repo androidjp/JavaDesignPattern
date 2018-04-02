@@ -1,8 +1,8 @@
 package builder;
 
-public abstract class Computer {
-
+public class Computer {
 	private String brand;
+	private String screen;
 	private String cpu;
 	private String os;
 	
@@ -18,6 +18,18 @@ public abstract class Computer {
 		this.brand = brand;
 	}
 
+	public String getScreen() {
+		return screen;
+	}
+
+	public void setScreen(String screen) {
+		this.screen = screen;
+	}
+
+	public void setOs(String os) {
+		this.os = os;
+	}
+
 	public String getCpu() {
 		return cpu;
 	}
@@ -30,8 +42,13 @@ public abstract class Computer {
 		return os;
 	}
 
-	public abstract String setOs();
-
-	
-	
+	@Override
+	public String toString() {
+		return "Computer{" +
+				"brand='" + brand + '\'' +
+				", screen='" + screen + '\'' +
+				", cpu='" + cpu + '\'' +
+				", os='" + os + '\'' +
+				'}';
+	}
 }
