@@ -10,7 +10,7 @@ public class Main {
 		Factory factory = new ConcreteFactory();
 		Product p1 = factory.createProduct(ConcreteProductA.class);
 		Product p2 = factory.createProduct(ConcreteProductB.class);
-		
+
 		p1.msg();
 		p2.msg();
 	}
