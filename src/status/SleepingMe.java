@@ -4,7 +4,7 @@ package status;
  * 睡眠中的我
  * Created by androidjp on 16/8/16.
  */
-public class SleepingMe implements MyStatus{
+public class SleepingMe extends MyStatus{
 
     @Override
     public int codingSpeed() {

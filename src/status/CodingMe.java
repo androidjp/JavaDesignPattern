@@ -4,7 +4,7 @@ package status;
  * 正在编码的我
  * Created by androidjp on 16/8/16.
  */
-public class CodingMe implements MyStatus {
+public class CodingMe extends MyStatus {
     @Override
     public int codingSpeed() {
         return 50;

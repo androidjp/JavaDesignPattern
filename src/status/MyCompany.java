@@ -7,6 +7,10 @@ public class MyCompany {
 
     private MyStatus me;
 
+    public MyCompany() {
+        me = new SleepingMe();
+    }
+
     /**
      * 新一天办公开始
      */
@@ -23,9 +27,9 @@ public class MyCompany {
         me = new SleepingMe();
     }
 
-    /*
-    ....................
-     */
+    public void run() {
+        System.out.println(me.run());
+    }
 
 
 }
